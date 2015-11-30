@@ -6,7 +6,7 @@ var reducer = function(state, action) {
 
   state = state || defaultState;
 
-  switch(action.type) {
+  switch (action.type) {
     case 'CHANGE_AMOUNT':
       state.currentAmount = action.amount;
       break;
