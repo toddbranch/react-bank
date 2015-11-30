@@ -17,8 +17,7 @@ module.exports = function(grunt) {
         vendor: [
           'node_modules/react/dist/react.js',
           'node_modules/react-dom/dist/react-dom.js',
-          'node_modules/redux/dist/redux.js',
-          'node_modules/underscore/underscore.js'
+          'node_modules/redux/dist/redux.js'
         ],
         specs: 'bank_spec.js'
       }
